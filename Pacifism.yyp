@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"spr_wallCollision","path":"sprites/spr_wallCollision/spr_wallCollision.yy",},"order":0,},
+    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
