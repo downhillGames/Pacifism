@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_wallCollision",
-    "path": "sprites/spr_wallCollision/spr_wallCollision.yy",
+    "name": "spr_menu_instructions",
+    "path": "sprites/spr_menu_instructions/spr_menu_instructions.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_instructions_button","path":"objects/obj_instructions_button/obj_instructions_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "gameplay objects",
-    "path": "folders/Objects/gameplay objects.yy",
+    "name": "menus",
+    "path": "folders/Objects/menus.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_wall",
+  "name": "obj_instructions_button",
   "tags": [],
   "resourceType": "GMObject",
 }
