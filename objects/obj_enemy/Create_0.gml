@@ -3,10 +3,17 @@ size = 3;
 image_xscale = size*sign(image_xscale);
 image_yscale = size;
 
-//status
+//AI state machine
+IDLE = 0;
+RUNNING = 1;
+SHOOTING = 2;
+state = IDLE;
+
+//fundamental logic
 grounded = true;
 xvel = 0;
 yvel = 0;
+chasing = false;
 
 //control
 xcont = 0;
@@ -17,6 +24,9 @@ facing = sign(image_xscale);
 grav = .5;
 runSpeed = 4;
 jumpVel = 14;
+
+//patrolling AI
+alarm[0] = random_range(room_speed,1.5*room_speed);
 
 //player detection
 sightRadius = 120; //detection radius if facing player
