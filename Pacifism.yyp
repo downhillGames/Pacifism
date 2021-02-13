@@ -12,6 +12,7 @@
     {"id":{"name":"spr_bullet_flash","path":"sprites/spr_bullet_flash/spr_bullet_flash.yy",},"order":0,},
     {"id":{"name":"spr_soldier_shoot","path":"sprites/spr_soldier_shoot/spr_soldier_shoot.yy",},"order":3,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":1,},
+    {"id":{"name":"scr_enemy_environment_detection","path":"scripts/scr_enemy_environment_detection/scr_enemy_environment_detection.yy",},"order":1,},
     {"id":{"name":"spr_enemy_dead_4","path":"sprites/spr_enemy_dead_4/spr_enemy_dead_4.yy",},"order":3,},
     {"id":{"name":"spr_enemy_dead_6","path":"sprites/spr_enemy_dead_6/spr_enemy_dead_6.yy",},"order":5,},
     {"id":{"name":"spr_soldier_run","path":"sprites/spr_soldier_run/spr_soldier_run.yy",},"order":0,},

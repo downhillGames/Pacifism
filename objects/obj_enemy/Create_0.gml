@@ -1,6 +1,6 @@
 //resizing
-size = 2;
-image_xscale = size;
+size = 3;
+image_xscale = size*sign(image_xscale);
 image_yscale = size;
 
 //status
@@ -11,11 +11,12 @@ yvel = 0;
 //control
 xcont = 0;
 jumping = false;
+facing = sign(image_xscale);
 
 //movement stats
-grav = 2;
+grav = .5;
 runSpeed = 4;
-jumpVel = 12;
+jumpVel = 14;
 
 //player detection
 sightRadius = 120; //detection radius if facing player
