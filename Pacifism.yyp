@@ -1,7 +1,12 @@
 {
   "resources": [
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":4,},
+<<<<<<< Updated upstream
     {"id":{"name":"spr_enemy_dead_2","path":"sprites/spr_enemy_dead_2/spr_enemy_dead_2.yy",},"order":3,},
+=======
+    {"id":{"name":"spr_enemy_dead_3","path":"sprites/spr_enemy_dead_3/spr_enemy_dead_3.yy",},"order":2,},
+    {"id":{"name":"spr_monk_walk","path":"sprites/spr_monk_walk/spr_monk_walk.yy",},"order":6,},
+>>>>>>> Stashed changes
     {"id":{"name":"scr_collision","path":"scripts/scr_collision/scr_collision.yy",},"order":0,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":2,},
     {"id":{"name":"spr_wallCollision","path":"sprites/spr_wallCollision/spr_wallCollision.yy",},"order":0,},
@@ -10,13 +15,21 @@
     {"id":{"name":"spr_enemy_dead_5","path":"sprites/spr_enemy_dead_5/spr_enemy_dead_5.yy",},"order":6,},
     {"id":{"name":"spr_enemy_dead_0","path":"sprites/spr_enemy_dead_0/spr_enemy_dead_0.yy",},"order":1,},
     {"id":{"name":"spr_soldier_jump","path":"sprites/spr_soldier_jump/spr_soldier_jump.yy",},"order":2,},
+    {"id":{"name":"obj_game_manager","path":"scripts/obj_game_manager/obj_game_manager.yy",},"order":2,},
     {"id":{"name":"spr_bullet_flash","path":"sprites/spr_bullet_flash/spr_bullet_flash.yy",},"order":0,},
     {"id":{"name":"spr_soldier_shoot","path":"sprites/spr_soldier_shoot/spr_soldier_shoot.yy",},"order":3,},
     {"id":{"name":"spr_enemy_dead_1","path":"sprites/spr_enemy_dead_1/spr_enemy_dead_1.yy",},"order":2,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":1,},
+    {"id":{"name":"spr_monk","path":"sprites/spr_monk/spr_monk.yy",},"order":5,},
     {"id":{"name":"scr_enemy_environment_detection","path":"scripts/scr_enemy_environment_detection/scr_enemy_environment_detection.yy",},"order":1,},
+<<<<<<< Updated upstream
     {"id":{"name":"spr_enemy_dead_4","path":"sprites/spr_enemy_dead_4/spr_enemy_dead_4.yy",},"order":5,},
     {"id":{"name":"spr_enemy_dead_3","path":"sprites/spr_enemy_dead_3/spr_enemy_dead_3.yy",},"order":4,},
+=======
+    {"id":{"name":"spr_enemy_dead_4","path":"sprites/spr_enemy_dead_4/spr_enemy_dead_4.yy",},"order":3,},
+    {"id":{"name":"spr_enemy_dead_6","path":"sprites/spr_enemy_dead_6/spr_enemy_dead_6.yy",},"order":5,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":3,},
+>>>>>>> Stashed changes
     {"id":{"name":"spr_soldier_run","path":"sprites/spr_soldier_run/spr_soldier_run.yy",},"order":0,},
     {"id":{"name":"spr_enemy_dead_6","path":"sprites/spr_enemy_dead_6/spr_enemy_dead_6.yy",},"order":7,},
     {"id":{"name":"obj_flash","path":"objects/obj_flash/obj_flash.yy",},"order":3,},
