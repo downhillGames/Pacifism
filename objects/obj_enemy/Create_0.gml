@@ -1,3 +1,6 @@
+//randomization
+randomize();
+
 //resizing
 size = 3;
 image_xscale = size*sign(image_xscale);
@@ -26,7 +29,12 @@ runSpeed = 4;
 jumpVel = 14;
 
 //patrolling AI
-alarm[0] = random_range(room_speed,1.5*room_speed);
+alarm[0] = random_range(room_speed,1.5*room_speed); //the patrolling alarm, alternates between moving and stopping
+
+//chasing AI
+shootChance = .1;
+aimingStance = false;
+alarm[1] = 5; //the shooting alarm, every time it ticks down, the soldier has a random chance to shoot
 
 //player detection
 sightRadius = 120; //detection radius if facing player

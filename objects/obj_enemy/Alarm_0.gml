@@ -1,5 +1,5 @@
-if(!chasing) {
-	show_debug_message("patrol change");
+if(!chasing and state != SHOOTING) {
+	//show_debug_message("patrol change");
 	if(xcont = 0) {
 		facing = sign(random_range(-20,20));
 		state = RUNNING;
