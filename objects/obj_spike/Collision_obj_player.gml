@@ -1,7 +1,6 @@
 image_speed = 1
 alarm[0] = room_speed * 2
 
-
 if (image_index > image_number - 13 && can_hurt){
 	global.player_health -= 20
 	can_hurt = false

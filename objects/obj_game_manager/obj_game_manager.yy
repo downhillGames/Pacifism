@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "gameplay objects",
-    "path": "folders/Objects/gameplay objects.yy",
+    "name": "managers",
+    "path": "folders/Objects/managers.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_game_manager",
