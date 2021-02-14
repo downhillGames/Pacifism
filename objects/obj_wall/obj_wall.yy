@@ -3,7 +3,7 @@
     "name": "spr_wallCollision",
     "path": "sprites/spr_wallCollision/spr_wallCollision.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

@@ -60,6 +60,7 @@ if (xDir !=0 || yDir != 0){
 			//if (place_free(xTarget, yTarget)){
 				x = xTarget
 				y = yTarget
+				wall_collision_backup()
 				movedSuccessfully = true;
 				break;
 			//}
