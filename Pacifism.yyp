@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":4,},
+    {"id":{"name":"spr_monk_spin","path":"sprites/spr_monk_spin/spr_monk_spin.yy",},"order":3,},
     {"id":{"name":"obj_main_menu_manager","path":"objects/obj_main_menu_manager/obj_main_menu_manager.yy",},"order":1,},
     {"id":{"name":"game_music","path":"sounds/game_music/game_music.yy",},"order":4,},
     {"id":{"name":"cannon_fire","path":"sounds/cannon_fire/cannon_fire.yy",},"order":2,},

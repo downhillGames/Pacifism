@@ -23,7 +23,9 @@ if (image_index > 4){
 if (image_index > 4){
 		var1 = instance_place(x,y,obj_player) {
 		    with var1 {
-		        global.player_health -= 10
-		        }
+		        if(!obj_player.intangible) {
+					global.player_health -= 10
+				}
+		    }
 		}
 }
