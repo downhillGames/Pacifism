@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "monk_walk",
-    "path": "sprites/monk_walk/monk_walk.yy",
+    "name": "monk_walk_right",
+    "path": "sprites/monk_walk_right/monk_walk_right.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,12 +22,14 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "gameplay objects",
+    "path": "folders/Objects/gameplay objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_player",
