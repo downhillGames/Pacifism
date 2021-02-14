@@ -48,4 +48,5 @@ y = clamp(y,sprite_height/2,room_height+sprite_height*4);
 if(y > room_height + sprite_height) {
 	show_debug_message("INTO THE PIT!");
 	instance_destroy();
+	global.enemies_in_level -=1
 }

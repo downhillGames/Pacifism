@@ -2,9 +2,11 @@ last_direction = -1
 size = 2.5;
 image_xscale = size*sign(image_xscale);
 image_yscale = size;
-yDir = 1
-xDir = 0
-facing = sign(image_xscale);
-walksp = 4
-grav = 0.3
-vsp = 0
+grav = 0.2;
+xvel = 0;
+yvel = 0;
+jumpspeed = 7;
+movespeed = 4;
+
+spawn_point_x = x
+spawn_point_y = y
