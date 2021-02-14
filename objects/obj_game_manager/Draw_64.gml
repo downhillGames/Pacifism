@@ -21,3 +21,4 @@ if (global.player_health <= 0){
 //goes to win rome if all enemies in level die
 if (global.enemies_in_level <= 0){
 	room_goto(rm_win);
+}
