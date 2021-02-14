@@ -36,7 +36,7 @@ jumpVel = 14;
 alarm[0] = random_range(room_speed,1.5*room_speed); //the patrolling alarm, alternates between moving and stopping
 
 //chasing AI
-shootChance = .3;
+shootChance = .5;
 aimingStance = false;
 alarm[1] = 5; //the shooting alarm, every time it ticks down, the soldier has a random chance to shoot
 
