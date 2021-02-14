@@ -28,17 +28,22 @@ facing = sign(image_xscale);
 //movement stats
 grav = .5;
 runSpeed = 4;
+acceleration = .3;
+decceleration = .05;
 jumpVel = 14;
 
 //patrolling AI
 alarm[0] = random_range(room_speed,1.5*room_speed); //the patrolling alarm, alternates between moving and stopping
 
 //chasing AI
-shootChance = .1;
+shootChance = .3;
 aimingStance = false;
 alarm[1] = 5; //the shooting alarm, every time it ticks down, the soldier has a random chance to shoot
 
 //player detection
-sightRadius = 120; //detection radius if facing player
-hearingRadius = 60; //detection radius if not facing player
-escapeRadius = 240; //detection radius if chasing player
+playx = obj_player.x;
+playy = obj_player.y;
+distanceToPlayer = point_distance(x,y,playx,playy);
+sightRadius = 240; //detection radius if facing player
+hearingRadius = 120; //detection radius if not facing player
+escapeRadius = 480; //detection radius if chasing player
