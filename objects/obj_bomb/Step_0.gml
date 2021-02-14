@@ -24,7 +24,9 @@ if (image_index > 5){
 if (image_index > 5){
 		var1 = instance_place(x,y,obj_player) {
 		    with var1 {
-		        global.player_health -= 1
-		        }
+		        if(!obj_player.intangible) {
+					global.player_health -= 1
+				}
+			}
 		}
 }
