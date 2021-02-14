@@ -1,5 +1,6 @@
-draw_text(0,30, string(global.enemies_in_level))
 draw_set_color(c_white);
+draw_text(0,30, string(global.enemies_in_level))
+draw_text(0,40, string(global.bombs_in_level))
 
 draw_line(25, 5, 250, 5);
 draw_line(25, 5, 25, 20);
