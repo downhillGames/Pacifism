@@ -51,6 +51,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":8,},
     {"id":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},"order":0,},
     {"id":{"name":"monk_walk_left","path":"sprites/monk_walk_left/monk_walk_left.yy",},"order":1,},
+    {"id":{"name":"UI_font","path":"fonts/UI_font/UI_font.yy",},"order":0,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":2,},
     {"id":{"name":"obj_back_button","path":"objects/obj_back_button/obj_back_button.yy",},"order":1,},
     {"id":{"name":"monk_walk_right","path":"sprites/monk_walk_right/monk_walk_right.yy",},"order":2,},
