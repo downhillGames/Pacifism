@@ -6,8 +6,15 @@ function enemy_environment_detection(){
 	if(state == RUNNING and !place_meeting(x+(20*xcont),y+1+sprite_height,obj_wall)) {
 		if(!chasing) {
 			facing *= -1;	
-		} else if (true) {
+		} else if (playy <= y) {
 			jumping = true;
+		}
+	}
+	
+	//if there's a wall between you and the player, hop over it
+	if(chasing and state == RUNNING and place_meeting(x+(64*xcont),y,obj_wall)) {
+		if(playy <= y) {
+			jumping = true;	
 		}
 	}
 }

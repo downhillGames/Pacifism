@@ -3,7 +3,9 @@ if(state != SHOOTING) {
 		//show_debug_message("ENGAGE:Rooty_Tooty_Point_and_Shooty_0");
 		xcont = 0;
 		state = SHOOTING;
-		alarm[1] = 11.5*room_speed/20;
+		sprite_index = spr_soldier_shoot;
+		image_index = 0;
+		alarm[1] = 11*room_speed/20;
 	} else {
 		//show_debug_message("Failed check");
 		alarm[1] = 5;	
@@ -15,6 +17,7 @@ if(state != SHOOTING) {
 		newBullet.xvel*=facing
 		newBullet.image_xscale*=facing;
 		xvel -= facing*3;
+		audio_play_sound(gunshot,2,false);
 		alarm[1] = 7*room_speed/20;
 		//do a bunch of stuff
 	} else {
