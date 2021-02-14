@@ -27,5 +27,6 @@ if (image_index > 5){
 		        if(!obj_player.intangible) {
 					global.player_health -= 1
 				}
+			}
 		}
 }
