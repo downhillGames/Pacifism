@@ -14,3 +14,10 @@ for (i=1; i < global.player_health; i++){
 	draw_set_color(c_red);
 	draw_line(i+0, 6, i+0, 19);
 }
+//goes to lose room if player dies
+if (global.player_health <= 0){
+	room_goto(rm_lose);
+}
+//goes to win rome if all enemies in level die
+if (global.enemies_in_level <= 0){
+	room_goto(rm_win);
