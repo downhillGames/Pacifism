@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "monk_walk_right",
-    "path": "sprites/monk_walk_right/monk_walk_right.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
