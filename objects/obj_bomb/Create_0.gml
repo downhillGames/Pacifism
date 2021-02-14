@@ -9,3 +9,4 @@ fuse_played = false
 size = 1.5;
 image_xscale = size*sign(image_xscale);
 image_yscale = size;
+trap_set = false
