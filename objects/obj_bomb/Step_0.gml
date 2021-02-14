@@ -26,6 +26,9 @@ if (image_index > 5){
 		    with var1 {
 		        if(!obj_player.intangible) {
 					global.player_health -= 1
+					if (!audio_is_playing(player_hurt))
+						audio_play_sound(player_hurt, 1, 0)
+			
 				}
 			}
 		}
