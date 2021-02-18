@@ -1,5 +1,5 @@
 if(state != SHOOTING) {
-	if(grounded and chasing and random_range(0,1) < shootChance) {
+	if(grounded and chasing and lineOfSight and random_range(0,1) < shootChance) {
 		//show_debug_message("ENGAGE:Rooty_Tooty_Point_and_Shooty_0");
 		xcont = 0;
 		state = SHOOTING;
