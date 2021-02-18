@@ -19,7 +19,7 @@ if(chasing) {
 		trackx = playx;
 		tracky = playy;
 	}
-} else if(playx < x xor facing > 0 and lineOfSight) {
+} else if(sign(x-playx) == facing and abs(x-playx) < abs(y-playy) and lineOfSight) {
 	chasing = (playDist < hearingRadius);
 	if(chasing) {
 		trackx = playx;
