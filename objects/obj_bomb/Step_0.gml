@@ -9,7 +9,7 @@ if (image_index > 5){
 		var1 = instance_place(x,y,obj_enemy) {
 		    with var1 {
 		        instance_destroy()
-				global.enemies_in_level -= 1
+				//global.enemies_in_level -= 1
 		        }
 		}
 }

@@ -4,7 +4,7 @@
     "path": "sprites/spr_bullet_flash/spr_bullet_flash.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

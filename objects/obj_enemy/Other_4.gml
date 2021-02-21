@@ -1,1 +1,0 @@
-global.enemies_in_level +=1
