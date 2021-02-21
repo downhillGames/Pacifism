@@ -1,11 +1,4 @@
-if(place_meeting(x,y,obj_wall)) {
-	speed = 0
-	image_speed = 1;
-	if !fuse_played {
-		audio_play_sound(fuse, 1, 0)
-		fuse_played = true
-	}
-}
+
 if (image_index > image_number - 1){
 	global.bombs_in_level -=1
 	audio_play_sound(explosion, 1, 0)
@@ -33,3 +26,37 @@ if (image_index > 5){
 			}
 		}
 }
+
+//apply gravity 
+yspd += grav;
+
+//collide on x-axis
+if place_meeting(x+xspd,y,obj_wall){
+	while !place_meeting(x+sign(xspd),y,obj_wall){
+		x+=sign(xspd)
+	}
+	//bounce
+	xspd *= -bouncedecay;
+	randomize();
+	rand = random_range(0,2) 
+	alarm[1] = room_speed * rand
+}
+//collide on y-axis
+if place_meeting(x,y+yspd,obj_wall){
+	while !place_meeting(x,y+sign(yspd),obj_wall){
+		y+=sign(yspd)
+	}
+	//bounce
+	yspd *= -bouncedecay;
+	randomize();
+	rand = random_range(0,2) 
+	alarm[1] = room_speed * rand
+}
+
+if place_meeting(x,y+1,obj_wall){
+	xspd *= 0.99
+}
+
+x+=xspd
+y+=yspd
+
