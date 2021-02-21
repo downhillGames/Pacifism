@@ -1,7 +1,7 @@
 //randomization
 randomize();
 
-
+global.enemies_in_level +=1
 
 //resizing
 size = 3;
