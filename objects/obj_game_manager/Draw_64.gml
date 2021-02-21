@@ -1,7 +1,7 @@
+
 draw_set_color(c_white);
 draw_set_font(UI_font)
 draw_text(0,30, string(global.enemies_in_level) + " Enemies Left")
-
 
 draw_line(0, 5, 225, 5);
 draw_line(0, 5, 0, 20);
@@ -17,7 +17,15 @@ for (i=1; i < global.player_health; i++){
 //goes to lose room if player dies
 if (global.player_health <= 0){
 	room_goto(rm_lose);
+<<<<<<< Updated upstream
 }
 //goes to win rome if all enemies in level die
 if (global.enemies_in_level <= 0){
+<<<<<<< Updated upstream
 	room_goto(rm_win);
+=======
+	room_goto(rm_win);
+=======
+>>>>>>> Stashed changes
+}
+>>>>>>> Stashed changes

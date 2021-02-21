@@ -1,6 +1,6 @@
 //checks to see if the player is about to hit a wall, then increments then by .1 pixels until they reach it
 function wall_collision() {
-	if(place_meeting(x+xvel,y,obj_wall)) {
+	if((place_meeting(x+xvel,y,obj_wall))) {
 		while(!place_meeting(x+.1*sign(xvel),y,obj_wall)) {
 			x+=.1*sign(xvel);
 		}

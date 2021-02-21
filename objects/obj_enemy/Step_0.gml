@@ -39,7 +39,8 @@ if(grounded) {
 //handle the movement itself
 if(grounded) {
 	//if you hit a wall, turn around
-	if(place_meeting(x+facing,y,obj_wall) and !chasing) {
+	if( (place_meeting(x+facing,y,obj_wall) or 
+	place_meeting(x+facing,y,obj_exitDoor) ) and !chasing) {
 		facing *= -1;	
 	}
 	//move forward

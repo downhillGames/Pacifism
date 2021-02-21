@@ -51,6 +51,16 @@ if xvel == 0
 else
 	image_speed = 1
 
+if (place_meeting(x+xvel+2,y, obj_exitDoor)){
+	if (global.enemies_in_level <= 0){
+		room_goto(rm_win);
+	}
+	else{
+		xvel = 0;
+		x -= 2;
+	}
+}
+
 x += xvel;
 y += yvel;
 
