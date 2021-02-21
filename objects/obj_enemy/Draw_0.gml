@@ -1,10 +1,8 @@
-if(grounded) {
+if(state == SHOOTING) {
+	sprite_index = spr_soldier_shoot;
+} else if(grounded) {
 	if(xcont = 0) {
-		if(state == SHOOTING) {
-			sprite_index = spr_soldier_shoot;
-		} else {
-			sprite_index = spr_soldier_idle;
-		}
+		sprite_index = spr_soldier_idle;
 	} else {
 		sprite_index = spr_soldier_run;	
 	}
