@@ -4,14 +4,13 @@ randomize();
 rand = random_range(-5,5)
 audio_play_sound(cannon_fire, 1, 0)
 
-x1 = x + 0 * cos (degtorad(image_angle))
-y1 = y + 0 * sin (degtorad(image_angle))
+
 var new_bomb = instance_create_depth(x+ lengthdir_x(cannonDistance, image_angle + cannonAngle),y + lengthdir_y(cannonDistance, image_angle + cannonAngle),0,obj_bomb)
 //new_bomb.speed = 5
 
 
 
-new_bomb.direction = point_direction(x+ lengthdir_x(cannonDistance, image_angle + cannonAngle),y + lengthdir_y(cannonDistance, image_angle + cannonAngle),obj_player.x , obj_player.y)
+new_bomb.direction = point_direction(x+ lengthdir_x(cannonDistance, image_angle + cannonAngle),y + lengthdir_y(cannonDistance, image_angle + cannonAngle),obj_player.x , obj_player.y) + rand
 
 if ((new_bomb.direction >= 0 && new_bomb.direction <= 90) || (new_bomb.direction >= 270 )){
 	randomize();
