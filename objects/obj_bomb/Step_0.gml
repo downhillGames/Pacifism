@@ -38,8 +38,9 @@ if place_meeting(x+xspd,y,obj_wall){
 	//bounce
 	xspd *= -bouncedecay;
 	randomize();
-	rand = random_range(0,2) 
+	rand = random_range(0,1) 
 	alarm[1] = room_speed * rand
+
 }
 //collide on y-axis
 if place_meeting(x,y+yspd,obj_wall){
@@ -49,7 +50,7 @@ if place_meeting(x,y+yspd,obj_wall){
 	//bounce
 	yspd *= -bouncedecay;
 	randomize();
-	rand = random_range(0,2) 
+	rand = random_range(0,1) 
 	alarm[1] = room_speed * rand
 }
 
