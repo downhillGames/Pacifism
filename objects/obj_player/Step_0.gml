@@ -24,7 +24,7 @@ if(!intangible) {
 
 if (yvel < 10) yvel += grav;
 
-
+//chain_collision()
 wall_collision()
 
 //check if player hits door
