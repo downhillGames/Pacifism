@@ -27,6 +27,22 @@ if (yvel < 10) yvel += grav;
 
 wall_collision()
 
+//check if player hits door
+if (place_meeting(x+xvel+1,y,obj_exitDoor)){
+	//if no enemies are left, go to win
+	//if not, acts like wall
+	if (global.enemies_in_level <= 0){
+		global.enemies_in_level = 0
+		global.player_health = 225
+		global.bombs_in_level = 0
+		room_goto(rm_win);
+	}
+	else {
+		x -= 1;
+		xvel = 0;
+	}		
+}
+
 if(intangible) {
 	sprite_index = spr_monk_spin;
 } else {

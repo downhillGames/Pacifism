@@ -1,6 +1,13 @@
-grav = 0.1;
+
 xvel = 0;
 yvel = 0;
+
+//xspd = 10;
+yspd = 0;
+grav = 0.4;
+bouncedecay = 0.8;
+rotation_angle = 0;
+triggered = false
 movespeed = 6
 image_speed = 0;
 global.bombs_in_level +=1
