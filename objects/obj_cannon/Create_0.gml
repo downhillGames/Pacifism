@@ -4,7 +4,9 @@ dir = 0;
 size = 2;
 image_xscale = size*sign(image_xscale);
 image_yscale = size;
-alarm[0] = room_speed * 1.7
 
 cannonDistance = 29 * size
 cannonAngle = 0
+
+triggered = false;
+image_speed = 0;
