@@ -32,5 +32,4 @@ if (global.player_health <= 0 && !triggered ){
 	global.player_health = 225
 	global.bombs_in_level = 0
 	triggerd = true
-	
 }
