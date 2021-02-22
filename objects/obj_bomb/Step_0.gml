@@ -15,6 +15,14 @@ if (image_index > 5){
 }
 
 if (image_index > 5){
+		var1 = instance_place(x,y,obj_spawner) {
+		    with var1 {
+		        instance_destroy()
+		        }
+		}
+}
+
+if (image_index > 5){
 		var1 = instance_place(x,y,obj_player) {
 		    with var1 {
 		        if(!obj_player.intangible) {

@@ -17,14 +17,7 @@ for (i=1; i < global.player_health; i++){
 
 
 //goes to win rome if all enemies in level die
-if (global.enemies_in_level <= 0 && !triggered ){
-	room_goto(rm_win);
-	global.enemies_in_level = 0
-	global.player_health = 225
-	global.bombs_in_level = 0
-	triggerd = true
-	
-}
+
 //goes to lose room if player dies
 if (global.player_health <= 0 && !triggered ){
 	room_goto(rm_lose);
