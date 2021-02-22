@@ -34,6 +34,11 @@ new_bomb.xspd = rand2;
 new_bomb.yspd = rand3;
 show_debug_message(rand2)
 new_bomb.image_angle = obj_bomb.direction
-alarm[0] = room_speed * 2
+
+if(collision_line(x,y,obj_player.x,obj_player.y,obj_wall,false,true)) {
+	triggered = false;
+} else {
+	alarm[0] = room_speed * 2
+}
 
 
