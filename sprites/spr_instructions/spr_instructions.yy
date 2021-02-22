@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 22,
-  "bbox_right": 1310,
-  "bbox_top": 30,
-  "bbox_bottom": 689,
+  "bbox_left": 18,
+  "bbox_right": 2150,
+  "bbox_top": 24,
+  "bbox_bottom": 1406,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1366,
-  "height": 768,
+  "width": 2200,
+  "height": 1700,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"954a0e80-4525-4193-9458-31726038109a","path":"sprites/spr_instructions/spr_instructions.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"954a0e80-4525-4193-9458-31726038109a","path":"sprites/spr_instructions/spr_instructions.yy",},"LayerId":{"name":"a847a375-8405-4e47-82a1-87a6e1040c55","path":"sprites/spr_instructions/spr_instructions.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_instructions","path":"sprites/spr_instructions/spr_instructions.yy",},"resourceVersion":"1.0","name":"954a0e80-4525-4193-9458-31726038109a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5675dea1-d6ea-4701-82eb-42756a33222a","path":"sprites/spr_instructions/spr_instructions.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5675dea1-d6ea-4701-82eb-42756a33222a","path":"sprites/spr_instructions/spr_instructions.yy",},"LayerId":{"name":"39fca299-5529-41f1-acf7-53cb5dfe5408","path":"sprites/spr_instructions/spr_instructions.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_instructions","path":"sprites/spr_instructions/spr_instructions.yy",},"resourceVersion":"1.0","name":"5675dea1-d6ea-4701-82eb-42756a33222a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_instructions","path":"sprites/spr_instructions/spr_instructions.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"28914539-5357-44e8-990b-8483a06b0f18","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"954a0e80-4525-4193-9458-31726038109a","path":"sprites/spr_instructions/spr_instructions.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"311a179a-894b-40fc-9aa9-caa10b1426de","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5675dea1-d6ea-4701-82eb-42756a33222a","path":"sprites/spr_instructions/spr_instructions.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a847a375-8405-4e47-82a1-87a6e1040c55","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"39fca299-5529-41f1-acf7-53cb5dfe5408","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "menu",
