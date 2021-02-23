@@ -49,17 +49,16 @@ if(intangible) {
 	sprite_index = monk_walk_right;
 }
 
-if (grounded)
+if (grounded and key_jump)
 {
-	if(!intangible and key_roll) {
-		xvel = sign(image_xscale)*rollSpeed
-		intangible = true;
-		alarm[1] = 15;
-	}
-	if(key_jump) {
-		intangible = false;
-		yvel = key_jump * -jumpspeed
-	}
+	intangible = false;
+	yvel = key_jump * -jumpspeed
+}
+if(!intangible and key_roll) {
+	xvel = sign(image_xscale)*rollSpeed
+	yvel = clamp(yvel,-100,0)-3;
+	intangible = true;
+	alarm[1] = 15;
 }
 
 if xvel == 0 
