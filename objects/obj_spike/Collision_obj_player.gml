@@ -8,6 +8,6 @@ if (image_index > image_number - 13 && can_hurt){
 			audio_play_sound(player_hurt, 1, 0)
 	}
 	can_hurt = false
-	alarm[1] = room_speed / 5
+	alarm[1] = room_speed / 2
 }
 	
