@@ -1,4 +1,4 @@
-audio_play_sound(splatter,15,false);
+audio_play_sound_at(splatter,x, y, 0, 50, 100, 0.25, false, 15);
 visible = false;
 global.enemies_in_level -=1
 for(i = 0; i<7; i++) {

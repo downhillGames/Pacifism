@@ -2,7 +2,8 @@
 randomize();
 
 rand = random_range(-5,5)
-audio_play_sound(cannon_fire, 1, 0)
+//audio_play_sound(cannon_fire, 1, 0)
+audio_play_sound_at(cannon_fire, x, y, 0, 50, 100, 0.25, false, 1);
 
 
 var new_bomb = instance_create_depth(x+ lengthdir_x(cannonDistance, image_angle + cannonAngle),y + lengthdir_y(cannonDistance, image_angle + cannonAngle),0,obj_bomb)
@@ -37,6 +38,7 @@ new_bomb.image_angle = obj_bomb.direction
 
 if(collision_line(x,y,obj_player.x,obj_player.y,obj_wall,false,true)) {
 	triggered = false;
+	image_index = 0
 } else {
 	alarm[0] = room_speed * 2
 }

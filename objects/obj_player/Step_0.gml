@@ -4,6 +4,7 @@ key_jump = keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_up);
 key_roll = keyboard_check_pressed(vk_down);
 grounded = place_meeting(x,y+1,obj_wall);
 
+audio_listener_position(x, y, 0);
 //React to inputs
 if(!intangible) {
 	move = key_left + key_right;

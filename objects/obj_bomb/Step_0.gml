@@ -1,10 +1,14 @@
 
 if (image_index > image_number - 1){
 	global.bombs_in_level -=1
-	audio_play_sound(explosion, 1, 0)
+	newExplosion = instance_create_layer(x,y,layer_get_id("Instances"),obj_explosion);
+	newExplosion.size = 1.5
+	audio_play_sound_at(explosion, x, y, 0, 50, 100, 0.25, false, 1);
 	instance_destroy()
+
 }
 
+/*
 if (image_index > 5){
 		var1 = instance_place(x,y,obj_enemy) {
 		    with var1 {
@@ -22,6 +26,8 @@ if (image_index > 5){
 		}
 }
 
+
+
 if (image_index > 5){
 		var1 = instance_place(x,y,obj_player) {
 		    with var1 {
@@ -34,6 +40,8 @@ if (image_index > 5){
 			}
 		}
 }
+*/
+
 
 //apply gravity 
 yspd += grav;
