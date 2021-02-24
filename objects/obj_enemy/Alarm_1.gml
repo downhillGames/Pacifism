@@ -17,7 +17,7 @@ if(state != SHOOTING) {
 		newBullet.xvel*=facing
 		newBullet.image_xscale*=facing;
 		xvel -= facing*3;
-		audio_play_sound(gunshot,2,false);
+		audio_play_sound_at(gunshot,x, y, 0, 50, 100, 0.25, false, 2);
 		alarm[1] = 7*room_speed/20;
 		//do a bunch of stuff
 	} else {

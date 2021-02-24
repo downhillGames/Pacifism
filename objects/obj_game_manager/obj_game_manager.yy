@@ -22,6 +22,7 @@
     {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":75,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":72,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

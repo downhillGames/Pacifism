@@ -1,2 +1,2 @@
 sprite_index = spr_spawner_closed
-cooldown = 100
+cooldown = 150
